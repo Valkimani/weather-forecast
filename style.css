@@ -11,3 +11,6 @@ margin-bottom: 30px;
 .container .card-body{
     padding-top: 30px;
 }
+.col-form-label{
+    font-weight: 400;
+}
