@@ -21,6 +21,8 @@
 // go through each city and call the function showCity
 // cities.forEach(showCity);
 
+
+
 let weather={
     "paris":{
         temp: 19.7,
@@ -43,3 +45,7 @@ let weather={
         humidity:20
     },
 };
+
+let askCity = prompt ("Enter a City");  
+
+
