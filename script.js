@@ -42,4 +42,4 @@ let weather={
         temp: -5,
         humidity:20
     },
-}
+};
