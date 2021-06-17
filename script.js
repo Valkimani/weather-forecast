@@ -36,16 +36,22 @@ let weather={
         temp: 30.2,
         humidity:20
     },
-    "paris":{
+    "san francisco":{
         temp: 20.9,
         humidity:100
     },
-    "paris":{
+    "moscow":{
         temp: -5,
         humidity:20
     },
 };
 
-let askCity = prompt ("Enter a City");  
-
+let askCity = prompt ("Enter a City"); 
+for ( let entry of Object.entries(weather)) {
+    alert("It is currently " + weather[[0]] + " in " + entry[0] +" with a humidity of " + weather[[0]] + ".")
+};
+// if (weather === paris){
+//     alert("It's beautiful today!")
+    // alert("It is currently" + weather.temp + "in" + "paris with a humidity of" + weather.humidity);
+// }
 
